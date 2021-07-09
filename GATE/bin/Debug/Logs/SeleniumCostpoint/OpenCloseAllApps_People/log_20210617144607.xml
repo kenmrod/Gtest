@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<testrun>
+  <testrunname>OpenCloseAllApps_People</testrunname>
+  <testrundetails>
+    <logmessage MessageTimeStamp="2021-06-17 02:46:02 PM" MessageType="ERR" MessageDetails="Object reference not set to an instance of an object." />
+    <logmessage MessageTimeStamp="2021-06-17 02:46:02 PM" MessageType="ERR" MessageDetails="Object reference not set to an instance of an object." />
+    <logmessage MessageTimeStamp="2021-06-17 02:46:02 PM" MessageType="ERR" MessageDetails="Object reference not set to an instance of an object." />
+    <logmessage MessageTimeStamp="2021-06-17 02:46:02 PM" MessageType="ERR" MessageDetails="Object reference not set to an instance of an object." />
+  </testrundetails>
+  <testrunresults>
+    <passed>0</passed>
+    <failed>0</failed>
+    <total>0</total>
+    <elapsed>00:01:41</elapsed>
+  </testrunresults>
+</testrun>

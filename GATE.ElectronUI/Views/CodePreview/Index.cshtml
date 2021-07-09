@@ -1,0 +1,87 @@
+﻿@{
+    Layout = "";
+}
+<!-- code preview 
+    TODO: footer - output log
+    -->
+<template class="task-template">
+    <section id="codepreview-section" class="section js-section u-category-menu">
+        <header class="section-header">
+            <div class="section-wrapper">
+                <h1>
+                    COSTPOINT_MM_REG
+                </h1>
+                <button type="button" class="btn btn-sm btn-primary btn-execute"> Execute <i class="fa fa-play"></i></button>
+            </div>
+        </header>
+        <div class="demo">
+            <div class="demo-wrapper">
+                <div class="code-preview">
+                    <p>Script description here.</p>
+                    <h5>COSTPOINT_MM_REG (C#)</h5>
+                    <pre><code class="csharp">    using System;
+    using Core.Sys;
+    using Core.Sys.Selenium;
+    using SeleniumCostpoint.Tests;
+    using SeleniumCostpoint.Tests.CP_SMOKE.MM;
+
+    namespace SeleniumCostpoint.TestRuns
+    {
+        public class CP711MM_REG_SMOKE_MSS_BATCH1 : SeleniumTestRun
+        {
+            public CP711MM_REG_SMOKE_MSS_BATCH1(Logger SessionLogger) : base(SessionLogger) { }
+
+            public override void ExecuteTests()
+            {
+                new AOMCPPRM_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new AOPBOM_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new AOPCPIMO_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new AOPCPMO_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new AOPCPWC_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new AOPEPAD_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new AOPEPIA_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new AOPEPITM_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new AOPEPPAO_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new AOPEPRC_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new AOPEPRQE_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new AOPEPVN_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new AOPINTRN_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new AOPITEM_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new AOPQTV_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new AOPRCPRE_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new AOPRQPP_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new AOPSCST_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new AOPSOPP_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new AOPUTLPO_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new APRVEND_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new APRVINFO_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new ARMCUST_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new ARRCUST_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new BMMCID_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new BMMDOCMD_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+            }
+        }
+    }
+</code></pre>
+                    
+                </div>
+            </div>
+        </div>
+       
+        <script type="text/javascript">
+            (function () {
+                const { ipcRenderer } = require("electron");
+
+                const contextMenuBtn = document.getElementById('context-menu')
+                contextMenuBtn.addEventListener('click', function () {
+                    ipcRenderer.send('show-context-menu');
+                })
+
+                window.addEventListener('contextmenu', (e) => {
+                    e.preventDefault()
+                    ipcRenderer.send('show-context-menu');
+                }, false);
+
+            }());</script>
+    </section>
+</template>

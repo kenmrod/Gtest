@@ -1,0 +1,148 @@
+ 
+using System;
+using Core.Sys;
+using Core.Sys.Selenium;
+using SeleniumCostpoint.Tests;
+
+namespace SeleniumCostpoint.TestRuns
+{
+    public class OpenCloseAllApps_Admin : SeleniumTestRun
+    {
+        public OpenCloseAllApps_Admin(Logger SessionLogger, String Environment) : base(SessionLogger, Environment) { }
+
+        public override void ExecuteTests()
+        {
+			SetDefaultArgs(SeleniumDriver.Browser.CHROME_HEADLESS, "C71QCM16");
+			AddTestScripts(new OpenCloseApp_AOMAIELM());
+			AddTestScripts(new OpenCloseApp_AOMAIEVM());
+			AddTestScripts(new OpenCloseApp_AOMAIICS());
+			AddTestScripts(new OpenCloseApp_AOMCBBET());
+			AddTestScripts(new OpenCloseApp_AOMCBCHG());
+			AddTestScripts(new OpenCloseApp_AOMCBCST());
+			AddTestScripts(new OpenCloseApp_AOMCBEXT());
+			AddTestScripts(new OpenCloseApp_AOMCBPYC());
+			AddTestScripts(new OpenCloseApp_AOMCPMAP());
+			AddTestScripts(new OpenCloseApp_AOMVSCU());
+			AddTestScripts(new OpenCloseApp_AOMVSPJ());
+			AddTestScripts(new OpenCloseApp_AOMVSPJM());
+			AddTestScripts(new OpenCloseApp_AOMVSVN());
+			AddTestScripts(new OpenCloseApp_AOPAIAIC());
+			AddTestScripts(new OpenCloseApp_AOPCMDAT());
+			AddTestScripts(new OpenCloseApp_LDQPMESH());
+			AddTestScripts(new OpenCloseApp_PMMCMPS());
+			AddTestScripts(new OpenCloseApp_PMMPRCGP());
+			AddTestScripts(new OpenCloseApp_PMMPROC());
+			AddTestScripts(new OpenCloseApp_PMMQLIST());
+			AddTestScripts(new OpenCloseApp_PMMQUE());
+			AddTestScripts(new OpenCloseApp_PMMSPRQ());
+			AddTestScripts(new OpenCloseApp_PMPPURGE());
+			AddTestScripts(new OpenCloseApp_PMRPROC());
+			AddTestScripts(new OpenCloseApp_PMSERVER());
+			AddTestScripts(new OpenCloseApp_SCMDBREF());
+			AddTestScripts(new OpenCloseApp_SCMODBC());
+			AddTestScripts(new OpenCloseApp_SCMONBRDG());
+			AddTestScripts(new OpenCloseApp_SCMPODDETAIL());
+			AddTestScripts(new OpenCloseApp_SYMABOUT());
+			AddTestScripts(new OpenCloseApp_SYMARCCT());
+			AddTestScripts(new OpenCloseApp_SYMBOARD());
+			AddTestScripts(new OpenCloseApp_SYMCASE());
+			AddTestScripts(new OpenCloseApp_SYMCDCLP());
+			AddTestScripts(new OpenCloseApp_SYMCFLA());
+			AddTestScripts(new OpenCloseApp_SYMCFLO());
+			AddTestScripts(new OpenCloseApp_SYMCMIAL());
+			AddTestScripts(new OpenCloseApp_SYMCMICT());
+			AddTestScripts(new OpenCloseApp_SYMCNFT());
+			AddTestScripts(new OpenCloseApp_SYMDLMGR());
+			AddTestScripts(new OpenCloseApp_SYMFLOC());
+			AddTestScripts(new OpenCloseApp_SYMGRP());
+			AddTestScripts(new OpenCloseApp_SYMINTGR());
+			AddTestScripts(new OpenCloseApp_SYMLICEN());
+			AddTestScripts(new OpenCloseApp_SYMMESS());
+			AddTestScripts(new OpenCloseApp_SYMORGFN());
+			AddTestScripts(new OpenCloseApp_SYMORGRP());
+			AddTestScripts(new OpenCloseApp_SYMORPRF());
+			AddTestScripts(new OpenCloseApp_SYMPRN());
+			AddTestScripts(new OpenCloseApp_SYMPROF());
+			AddTestScripts(new OpenCloseApp_SYMRPTAS());
+			AddTestScripts(new OpenCloseApp_SYMRPTCT());
+			AddTestScripts(new OpenCloseApp_SYMRPTGR());
+			AddTestScripts(new OpenCloseApp_SYMSETNG());
+			AddTestScripts(new OpenCloseApp_SYMSTAX());
+			AddTestScripts(new OpenCloseApp_SYMUSR());
+			AddTestScripts(new OpenCloseApp_SYMWRPTM());
+			AddTestScripts(new OpenCloseApp_SYMXTAU());
+			AddTestScripts(new OpenCloseApp_SYPPURGR());
+			AddTestScripts(new OpenCloseApp_SYPSTNG());
+			AddTestScripts(new OpenCloseApp_SYQJSTAT());
+			AddTestScripts(new OpenCloseApp_SYQJSTAT2());
+			AddTestScripts(new OpenCloseApp_SYQMFAHS());
+			AddTestScripts(new OpenCloseApp_SYQUSRXT());
+			AddTestScripts(new OpenCloseApp_SYRMENU());
+			AddTestScripts(new OpenCloseApp_SYRSTAX());
+			AddTestScripts(new OpenCloseApp_SYRUSR());
+			AddTestScripts(new OpenCloseApp_UPMUSRPR());
+			AddTestScripts(new OpenCloseApp_WFMACASE());
+			AddTestScripts(new OpenCloseApp_WFMAEMAIL());
+			AddTestScripts(new OpenCloseApp_WFMAPPRL());
+			AddTestScripts(new OpenCloseApp_WFMAROLE());
+			AddTestScripts(new OpenCloseApp_WFMCASE());
+			AddTestScripts(new OpenCloseApp_WFMCLBL());
+			AddTestScripts(new OpenCloseApp_WFMFLOW());
+			AddTestScripts(new OpenCloseApp_WFMFLTR());
+			AddTestScripts(new OpenCloseApp_WFMLIST());
+			AddTestScripts(new OpenCloseApp_WFMROLE());
+			AddTestScripts(new OpenCloseApp_WFMSTAT());
+			AddTestScripts(new OpenCloseApp_WFQAUDIT());
+			AddTestScripts(new OpenCloseApp_AOMCBPRJ());
+			AddTestScripts(new OpenCloseApp_AOMCBSET());
+			AddTestScripts(new OpenCloseApp_AOMVSEM());
+			AddTestScripts(new OpenCloseApp_AOMVSOR());
+			AddTestScripts(new OpenCloseApp_AOPCBLAB());
+			AddTestScripts(new OpenCloseApp_AOPCPDAT());
+			AddTestScripts(new OpenCloseApp_AOPRPDAT());
+			AddTestScripts(new OpenCloseApp_PMMSETNG());
+			AddTestScripts(new OpenCloseApp_SYMCISCD());
+			AddTestScripts(new OpenCloseApp_SYMCLR());
+			AddTestScripts(new OpenCloseApp_SYMCNTRY());
+			AddTestScripts(new OpenCloseApp_SYMCSLBL());
+			AddTestScripts(new OpenCloseApp_SYMCTDIR());
+			AddTestScripts(new OpenCloseApp_SYMDYTAB());
+			AddTestScripts(new OpenCloseApp_SYMECCOM());
+			AddTestScripts(new OpenCloseApp_SYMECCOR());
+			AddTestScripts(new OpenCloseApp_SYMECMTR());
+			AddTestScripts(new OpenCloseApp_SYMECNTR());
+			AddTestScripts(new OpenCloseApp_SYMENLOG());
+			AddTestScripts(new OpenCloseApp_SYMENOTC());
+			AddTestScripts(new OpenCloseApp_SYMPOST());
+			AddTestScripts(new OpenCloseApp_SYMRPLOC());
+			AddTestScripts(new OpenCloseApp_SYMRPTAR());
+			AddTestScripts(new OpenCloseApp_SYMRPTFN());
+			AddTestScripts(new OpenCloseApp_SYMSTATE());
+			AddTestScripts(new OpenCloseApp_SYMTTYPE());
+			AddTestScripts(new OpenCloseApp_SYMUSRSUP());
+			AddTestScripts(new OpenCloseApp_SYMVATSC());
+			AddTestScripts(new OpenCloseApp_SYPCFLR());
+			AddTestScripts(new OpenCloseApp_SYPCOMP());
+			AddTestScripts(new OpenCloseApp_SYPORGPF());
+			AddTestScripts(new OpenCloseApp_SYPRVPST());
+			AddTestScripts(new OpenCloseApp_SYPTOOL());
+			AddTestScripts(new OpenCloseApp_SYRAPPDD());
+			AddTestScripts(new OpenCloseApp_SYRDD());
+			AddTestScripts(new OpenCloseApp_SYREFFUR());
+			AddTestScripts(new OpenCloseApp_SYRGRPR());
+			AddTestScripts(new OpenCloseApp_SYRMYMEN());
+			AddTestScripts(new OpenCloseApp_SYRPOST());
+			AddTestScripts(new OpenCloseApp_SYRXTUR());
+			AddTestScripts(new OpenCloseApp_WFMARF());
+			AddTestScripts(new OpenCloseApp_WFMARJCD());
+			AddTestScripts(new OpenCloseApp_WFPESC());
+			AddTestScripts(new OpenCloseApp_WFPPURGE());
+			AddTestScripts(new OpenCloseApp_WFPTOOL());
+			AddTestScripts(new OpenCloseApp_WFPTOOL1());
+			AddTestScripts(new OpenCloseApp_WFRAUDIT());
+			AddTestScripts(new OpenCloseApp_WFRDEF());
+			AddTestScripts(new OpenCloseApp_WFRSTAT());
+		}
+    }
+	
+}

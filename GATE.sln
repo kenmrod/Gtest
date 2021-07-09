@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GATE", "GATE\GATE.csproj", "{9349F1BF-BA45-44B4-9562-736A7E1A2E5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumCostpoint", "SeleniumCostpoint\SeleniumCostpoint.csproj", "{20CB6385-7E5A-47D2-906B-ABF22F0FF2F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{593E754E-03B0-473B-B7AE-A34BF62DC3C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppiumPIM", "AppiumPIM\AppiumPIM.csproj", "{FA4A85D8-282C-4878-86D7-564DC235E18D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GATE.ElectronUI", "GATE.ElectronUI\GATE.ElectronUI.csproj", "{14BF7F56-383B-43CB-9144-ECAA6BDEC145}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9349F1BF-BA45-44B4-9562-736A7E1A2E5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9349F1BF-BA45-44B4-9562-736A7E1A2E5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9349F1BF-BA45-44B4-9562-736A7E1A2E5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9349F1BF-BA45-44B4-9562-736A7E1A2E5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20CB6385-7E5A-47D2-906B-ABF22F0FF2F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20CB6385-7E5A-47D2-906B-ABF22F0FF2F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20CB6385-7E5A-47D2-906B-ABF22F0FF2F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20CB6385-7E5A-47D2-906B-ABF22F0FF2F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{593E754E-03B0-473B-B7AE-A34BF62DC3C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{593E754E-03B0-473B-B7AE-A34BF62DC3C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{593E754E-03B0-473B-B7AE-A34BF62DC3C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{593E754E-03B0-473B-B7AE-A34BF62DC3C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA4A85D8-282C-4878-86D7-564DC235E18D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA4A85D8-282C-4878-86D7-564DC235E18D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA4A85D8-282C-4878-86D7-564DC235E18D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA4A85D8-282C-4878-86D7-564DC235E18D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14BF7F56-383B-43CB-9144-ECAA6BDEC145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14BF7F56-383B-43CB-9144-ECAA6BDEC145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14BF7F56-383B-43CB-9144-ECAA6BDEC145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14BF7F56-383B-43CB-9144-ECAA6BDEC145}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1934DEB-AD43-4D54-AC02-A6413F48F32F}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.deltek.com/tfs/deltek
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Core\\Core.csproj
+		SccProjectName1 = Core
+		SccLocalPath1 = Core
+		SccProjectUniqueName2 = GATE\\GATE.csproj
+		SccProjectName2 = GATE
+		SccLocalPath2 = GATE
+		SccProjectUniqueName3 = SeleniumCostpoint\\SeleniumCostpoint.csproj
+		SccProjectName3 = SeleniumCostpoint
+		SccLocalPath3 = SeleniumCostpoint
+		SccProjectUniqueName4 = AppiumPIM\\AppiumPIM.csproj
+		SccProjectName4 = AppiumPIM
+		SccLocalPath4 = AppiumPIM
+		SccProjectUniqueName5 = GATE.ElectronUI\\GATE.ElectronUI.csproj
+		SccProjectName5 = GATE.ElectronUI
+		SccLocalPath5 = GATE.ElectronUI
+	EndGlobalSection
+EndGlobal

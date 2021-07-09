@@ -1,0 +1,53 @@
+﻿<div class="row">
+    <div class="col-md-12">
+        <div class="box box-default">
+            <div class="box-header with-border">
+                <h3 class="box-title" id="script-title">COSTPOINT_MM_REG</h3>
+            </div>
+            <pre><code class="csharp" id="code-text">    using System;
+    using Core.Sys;
+    using Core.Sys.Selenium;
+    using SeleniumCostpoint.Tests;
+    using SeleniumCostpoint.Tests.CP_SMOKE.MM;
+
+    namespace SeleniumCostpoint.TestRuns
+    {
+        public class CP711MM_REG_SMOKE_MSS_BATCH1 : SeleniumTestRun
+        {
+            public CP711MM_REG_SMOKE_MSS_BATCH1(Logger SessionLogger) : base(SessionLogger) { }
+
+            public override void ExecuteTests()
+            {
+                new AOMCPPRM_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new AOPBOM_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new AOPCPIMO_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new AOPCPMO_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new AOPCPWC_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new AOPEPAD_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new AOPEPIA_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new AOPEPITM_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new AOPEPPAO_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new AOPEPRC_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new AOPEPRQE_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new AOPEPVN_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new AOPINTRN_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new AOPITEM_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new AOPQTV_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new AOPRCPRE_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new AOPRQPP_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new AOPSCST_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new AOPSOPP_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new AOPUTLPO_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new APRVEND_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new APRVINFO_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new ARMCUST_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new ARRCUST_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new BMMCID_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+                new BMMDOCMD_SMOKE().Run(this, SeleniumDriver.Browser.CHROME, "C711AUTOTESTREGM14");
+            }
+        }
+    }
+</code></pre>
+        </div>
+    </div>
+</div>
